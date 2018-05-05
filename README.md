@@ -25,3 +25,8 @@
     ├── urls.py
     └── wsgi.py
     ```
+Here is the structure of Backend part or the server side.
+
+-The api has been created with the dummy data from the backend,which is accessable on http://127.0.0.1:8000/api in the local server.
+-Sqlite has been used as the database can change the database from the settings file.
+-The schema and other validations has yet to be done.
