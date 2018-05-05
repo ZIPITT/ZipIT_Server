@@ -30,3 +30,10 @@ Here is the structure of Backend part or the server side.
 -The api has been created with the dummy data from the backend,which is accessable on http://127.0.0.1:8000/api in the local server.
 -Sqlite has been used as the database can change the database from the settings file.
 -The schema and other validations has yet to be done.
+
+Steps to run the Django app-
+1.clone the repository.
+2.install django.
+3.go to the directory of the repository and run commands - 
+python manage.py migrate.
+python manage.py runserver.
